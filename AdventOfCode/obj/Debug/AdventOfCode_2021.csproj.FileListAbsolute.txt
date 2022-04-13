@@ -1,0 +1,7 @@
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.exe.config
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.exe
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.pdb
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode_2021.csprojAssemblyReference.cache
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode_2021.csproj.CoreCompileInputs.cache
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.exe
+C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.pdb
