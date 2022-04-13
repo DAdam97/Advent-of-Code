@@ -10,7 +10,8 @@ namespace AdventOfCode
     {
         static void Main(string[] args)
         {
-         /*   Puzzle day1 = new Day1(@"C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\inputs\01.txt");
+            /*
+            Puzzle day1 = new Day1(@"C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\inputs\01.txt");
 
             Console.WriteLine(day1.part1());
             Console.WriteLine(day1.part2());
@@ -26,6 +27,7 @@ namespace AdventOfCode
             Puzzle day3 = new Day3(@"C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\inputs\03.txt");
 
             Console.WriteLine(day3.part1());
+            Console.WriteLine(day3.part2());
 
 
 

@@ -57,11 +57,78 @@ namespace AdventOfCode
 
         public override int part2()
         {
+            List<string> oxygen = new List<string>(inputs);
+            List<string> co2 = new List<string>(inputs);
+
+            int zero = 0;
+            int one = 0;
+            int oxygenGenRate = 0;
+            int co2ScrubRate = 0;
 
 
+            for (int pos = 0; pos < oxygen.Count || oxygen.Count > 1; pos++)
+            {
+                foreach (string bit in oxygen)
+                {
+                    if (bit[pos] == '0') { zero++; }
+
+                    else { one++; }
+                }
+
+                for (int i = oxygen.Count - 1; i >= 0; i--)
+                {
+                    if (zero > one && oxygen[i][pos] == '1')
+                    {
+                        oxygen.Remove(oxygen[i]);
+                    }
+                    else if (zero < one && oxygen[i][pos] == '0')
+                    {
+                        oxygen.Remove(oxygen[i]);
+                    }
+                    else if (zero == one && oxygen[i][pos] == '0')
+                    {
+                        oxygen.Remove(oxygen[i]);
+                    }
+                }
+
+                one = zero = 0;
+            }
+
+            for (int pos = 0; pos < co2.Count || co2.Count > 1; pos++)
+            {
+                foreach (string bit in co2)
+                {
+                    if (bit[pos] == '0') { zero++; }
+
+                    else { one++; }
+                }
+
+                for (int i = co2.Count - 1; i >= 0; i--)
+                {
+
+                    if (zero < one && co2[i][pos] == '1')
+                    {
+                        co2.Remove(co2[i]);
+                    }
+                    else if (zero > one && co2[i][pos] == '0')
+                    {
+                        co2.Remove(co2[i]);
+                    }
+                    else if (zero == one && co2[i][pos] == '1')
+                    {
+                        co2.Remove(co2[i]);
+                    }
+
+                }
+
+                one = zero = 0;
+            }
 
 
-            return -1;
+            oxygenGenRate = Convert.ToInt32(oxygen[0], 2);
+            co2ScrubRate = Convert.ToInt32(co2[0], 2);
+
+            return oxygenGenRate * co2ScrubRate;
         }
 
 
