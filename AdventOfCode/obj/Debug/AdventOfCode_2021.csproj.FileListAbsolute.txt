@@ -5,3 +5,10 @@ C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfC
 C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode_2021.csproj.CoreCompileInputs.cache
 C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.exe
 C:\Users\Deák Ádám\source\repos\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.pdb
+E:\Repos\Advent of Code\AdventOfCode\bin\Debug\AdventOfCode.exe.config
+E:\Repos\Advent of Code\AdventOfCode\bin\Debug\AdventOfCode.exe
+E:\Repos\Advent of Code\AdventOfCode\bin\Debug\AdventOfCode.pdb
+E:\Repos\Advent of Code\AdventOfCode\obj\Debug\AdventOfCode_2021.csprojAssemblyReference.cache
+E:\Repos\Advent of Code\AdventOfCode\obj\Debug\AdventOfCode_2021.csproj.CoreCompileInputs.cache
+E:\Repos\Advent of Code\AdventOfCode\obj\Debug\AdventOfCode.exe
+E:\Repos\Advent of Code\AdventOfCode\obj\Debug\AdventOfCode.pdb

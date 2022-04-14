@@ -66,7 +66,7 @@ namespace AdventOfCode
             int co2ScrubRate = 0;
 
 
-            for (int pos = 0; pos < oxygen.Count || oxygen.Count > 1; pos++)
+            for (int pos = 0; oxygen.Count > 1; pos++)
             {
                 foreach (string bit in oxygen)
                 {
@@ -94,7 +94,7 @@ namespace AdventOfCode
                 one = zero = 0;
             }
 
-            for (int pos = 0; pos < co2.Count || co2.Count > 1; pos++)
+            for (int pos = 0; co2.Count > 1; pos++)
             {
                 foreach (string bit in co2)
                 {
