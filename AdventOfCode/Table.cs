@@ -102,6 +102,17 @@ namespace AdventOfCode
             return false;
         }
 
+        public void ResetMarks()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Numbers[i, j].Marked = false;
+                }
+            }
+        }
+
 
         public Table(List<int> tableNums)
         {
