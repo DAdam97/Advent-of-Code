@@ -29,13 +29,19 @@ namespace AdventOfCode
 
             Console.WriteLine(day3.part1());
             Console.WriteLine(day3.part2());
-            */
+            
 
 
             Puzzle day4 = new Day4(@"E:\Repos\Advent of Code\AdventOfCode\inputs\04.txt");
 
             Console.WriteLine(day4.part1());
             Console.WriteLine(day4.part2());           
+            */
+
+
+            Puzzle day5 = new Day5(@"E:\Repos\Advent of Code\AdventOfCode\inputs\05.txt");
+
+            Console.WriteLine(day5.part1());          
 
 
             Console.ReadLine();
