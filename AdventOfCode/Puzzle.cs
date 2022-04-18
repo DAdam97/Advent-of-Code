@@ -12,9 +12,9 @@ namespace AdventOfCode
        public List<string> inputs;
 
 
-        public abstract int part1();
+        public abstract void part1();
 
-        public abstract int part2();
+        public abstract void part2();
 
 
         public Puzzle(string input)

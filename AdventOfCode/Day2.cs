@@ -8,7 +8,7 @@ namespace AdventOfCode
 {
     class Day2 : Puzzle
     {
-        public override int part1()
+        public override void part1()
         {
             int depth = 0;
             int horizontal = 0;
@@ -33,10 +33,10 @@ namespace AdventOfCode
                 }
             }
 
-            return depth * horizontal;
+            Console.WriteLine(depth * horizontal);
         }
 
-        public override int part2()
+        public override void part2()
         {
             int depth = 0;
             int horizontal = 0;
@@ -63,7 +63,7 @@ namespace AdventOfCode
                 }
             }
 
-            return depth * horizontal;
+            Console.WriteLine(depth * horizontal);
         }
 
         public Day2(string input) : base(input) { }

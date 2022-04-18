@@ -46,9 +46,10 @@ namespace AdventOfCode
             */
 
 
-            Puzzle day6 = new Day6(@"E:\Repos\Advent of Code\AdventOfCode\inputs\06.txt");
+            Day6 day6 = new Day6(@"E:\Repos\Advent of Code\AdventOfCode\inputs\06.txt");
 
             Console.WriteLine(day6.part1());
+            Console.WriteLine(day6.part3());
 
 
             Console.ReadLine();

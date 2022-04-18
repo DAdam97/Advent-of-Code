@@ -8,7 +8,7 @@ namespace AdventOfCode
 {
     class Day3 : Puzzle
     {      
-        public override int part1()
+        public override void part1()
         {
             int[] gammaRate = new int[inputs[0].Length];
             int[] epsilonRate = new int[inputs[0].Length];
@@ -52,10 +52,10 @@ namespace AdventOfCode
             gamma = Convert.ToInt32(strGamma, 2);
             epsilon = Convert.ToInt32(strEpsilon, 2);
 
-            return gamma * epsilon;
+            Console.WriteLine(gamma * epsilon);
         }
 
-        public override int part2()
+        public override void part2()
         {
             List<string> oxygen = new List<string>(inputs);
             List<string> co2 = new List<string>(inputs);
@@ -128,7 +128,7 @@ namespace AdventOfCode
             oxygenGenRate = Convert.ToInt32(oxygen[0], 2);
             co2ScrubRate = Convert.ToInt32(co2[0], 2);
 
-            return oxygenGenRate * co2ScrubRate;
+            Console.WriteLine(oxygenGenRate * co2ScrubRate);
         }
 
 

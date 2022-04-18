@@ -9,7 +9,7 @@ namespace AdventOfCode
 {
     class Day1 : Puzzle
     {
-        public override int part1()
+        public override void part1()
         {
             int depthsInc = 0;
 
@@ -21,10 +21,10 @@ namespace AdventOfCode
                 }
             }
 
-            return depthsInc;
+            Console.WriteLine(depthsInc);
         }
 
-        public override int part2()
+        public override void part2()
         {
             int depthsInc = 0;
 
@@ -39,7 +39,7 @@ namespace AdventOfCode
                 }
             }
 
-            return depthsInc;
+            Console.WriteLine(depthsInc);
         }
 
         public Day1(string inputFile) : base(inputFile) { }

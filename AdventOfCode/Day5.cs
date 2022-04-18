@@ -9,7 +9,7 @@ namespace AdventOfCode
 {
     class Day5 : Puzzle
     {
-        public override int part1()
+        public override void part1()
         {
             List<Point> points = new List<Point>();
             int max_x = 0;
@@ -62,10 +62,10 @@ namespace AdventOfCode
                 }
             }
 
-            return dangerousAreas;
+            Console.WriteLine(dangerousAreas);
         }
 
-        public override int part2()
+        public override void part2()
         {
             List<Point> points = new List<Point>();
             int max_x = 0;
@@ -118,7 +118,7 @@ namespace AdventOfCode
                 }
             }
 
-            return dangerousAreas;
+            Console.WriteLine(dangerousAreas);
         }
 
 

@@ -18,7 +18,7 @@ namespace AdventOfCode
         int unmarkedNumbersSum = 0;
 
 
-        public override int part1()
+        public override void part1()
         {
             for (int i = 0; i < randomNums.Length; i++)
             {
@@ -41,11 +41,11 @@ namespace AdventOfCode
 
             unmarkedNumbersSum = winningTable.GetUnmarkedSum();
 
-            return unmarkedNumbersSum * lastNumber;
+            Console.WriteLine(unmarkedNumbersSum * lastNumber);
         }
 
 
-        public override int part2()
+        public override void part2()
         {
             List<Table> wonBoards = new List<Table>();
 
@@ -83,7 +83,7 @@ namespace AdventOfCode
 
             unmarkedNumbersSum = winningTable.GetUnmarkedSum();
 
-            return unmarkedNumbersSum * lastNumber;
+            Console.WriteLine(unmarkedNumbersSum * lastNumber);
         }
 
 
