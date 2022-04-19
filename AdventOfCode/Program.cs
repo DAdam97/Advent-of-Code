@@ -13,44 +13,49 @@ namespace AdventOfCode
             /*
             Puzzle day1 = new Day1(@"E:\Repos\Advent of Code\AdventOfCode\inputs\01.txt");
 
-            Console.WriteLine(day1.part1());
-            Console.WriteLine(day1.part2());
+            day1.part1();
+            day1.part2();
 
 
-            
+
             Puzzle day2 = new Day2(@"E:\Repos\Advent of Code\AdventOfCode\inputs\02.txt");
 
-            Console.WriteLine(day2.part1());
-            Console.WriteLine(day2.part2());
-            
+            day2.part1();
+            day2.part2();
+
 
 
             Puzzle day3 = new Day3(@"E:\Repos\Advent of Code\AdventOfCode\inputs\03.txt");
 
-            Console.WriteLine(day3.part1());
-            Console.WriteLine(day3.part2());
-            
+            day3.part1();
+            day3.part2();
+
 
 
             Puzzle day4 = new Day4(@"E:\Repos\Advent of Code\AdventOfCode\inputs\04.txt");
 
-            Console.WriteLine(day4.part1());
-            Console.WriteLine(day4.part2());           
-            
+            day4.part1();
+            day4.part2();
+
 
 
             Puzzle day5 = new Day5(@"E:\Repos\Advent of Code\AdventOfCode\inputs\05.txt");
 
-            Console.WriteLine(day5.part1());          
-            Console.WriteLine(day5.part2());
+            day5.part1();
+            day5.part2();
+
+
+
+            Puzzle day6 = new Day6(@"E:\Repos\Advent of Code\AdventOfCode\inputs\06.txt");
+
+            day6.part1();
+            day6.part2();
             */
 
 
-            Day6 day6 = new Day6(@"E:\Repos\Advent of Code\AdventOfCode\inputs\06.txt");
+            Puzzle day7 = new Day7(@"E:\Repos\Advent of Code\AdventOfCode\inputs\07.txt");
 
-            Console.WriteLine(day6.part1());
-            Console.WriteLine(day6.part3());
-
+            day7.part1();
 
             Console.ReadLine();
         }

@@ -78,7 +78,6 @@ namespace AdventOfCode
 
             Console.WriteLine(population);
         }
-
         
 
         public Day6(string input) : base(input) { }
