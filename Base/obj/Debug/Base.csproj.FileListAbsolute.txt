@@ -1,0 +1,6 @@
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\bin\Debug\Base.dll
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\bin\Debug\Base.pdb
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\obj\Debug\Base.csproj.AssemblyReference.cache
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\obj\Debug\Base.csproj.CoreCompileInputs.cache
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\obj\Debug\Base.dll
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\Base\obj\Debug\Base.pdb

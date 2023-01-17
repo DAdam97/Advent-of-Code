@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode
 {
-    abstract class Puzzle
+    public abstract class Puzzle
     {
        public List<string> inputs;
 

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Base">
+      <HintPath>..\Base\bin\Debug\Base.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -51,23 +54,22 @@
     <Compile Include="Day5.cs" />
     <Compile Include="Day6.cs" />
     <Compile Include="Day7.cs" />
-    <Compile Include="number.cs" />
+    <Compile Include="Number.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Puzzle.cs" />
     <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="inputs\07.txt" />
-    <Content Include="inputs\06.txt" />
-    <Content Include="inputs\05.txt" />
-    <Content Include="inputs\04.txt" />
-    <Content Include="inputs\03.txt" />
-    <Content Include="inputs\02.txt" />
-    <Content Include="inputs\01.txt" />
+    <Content Include="bin\Debug\inputs\01.txt" />
+    <Content Include="bin\Debug\inputs\02.txt" />
+    <Content Include="bin\Debug\inputs\03.txt" />
+    <Content Include="bin\Debug\inputs\04.txt" />
+    <Content Include="bin\Debug\inputs\05.txt" />
+    <Content Include="bin\Debug\inputs\06.txt" />
+    <Content Include="bin\Debug\inputs\07.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
