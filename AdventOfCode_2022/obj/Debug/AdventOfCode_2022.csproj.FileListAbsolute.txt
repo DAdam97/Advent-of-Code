@@ -1,0 +1,11 @@
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\bin\Debug\AdventOfCode_2022.exe.config
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\bin\Debug\AdventOfCode_2022.exe
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\bin\Debug\AdventOfCode_2022.pdb
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\bin\Debug\Base.dll
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\bin\Debug\Base.pdb
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.csproj.AssemblyReference.cache
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.csproj.SuggestedBindingRedirects.cache
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.csproj.CoreCompileInputs.cache
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.csproj.CopyComplete
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.exe
+C:\Users\Deák Ádám\source\Repos\Advent-of-Code\AdventOfCode_2022\obj\Debug\AdventOfCode_2022.pdb

@@ -11,17 +11,16 @@ namespace AdventOfCode
     {
        public List<string> inputs;
 
-
         public abstract void part1();
 
         public abstract void part2();
 
 
-        public Puzzle(string input)
+        public Puzzle(string path)
         {
             inputs = new List<string>();
 
-            using (StreamReader sr = new StreamReader(input, Encoding.Default))
+            using (StreamReader sr = new StreamReader(path, Encoding.Default))
             {
                 while (!sr.EndOfStream)
                 {

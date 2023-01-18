@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode
 {
-    class Day1 : Puzzle
+    internal class Day1 : Puzzle
     {
         public override void part1()
         {
