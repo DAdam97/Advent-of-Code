@@ -13,9 +13,9 @@ namespace AdventOfCode
         {
             int depthsInc = 0;
 
-            for (int i = 0; i < inputs.Count - 1; i++)
+            for (int i = 0; i < inputLines.Count - 1; i++)
             {
-                if (int.Parse(inputs[i]) < int.Parse(inputs[i + 1]))
+                if (int.Parse(inputLines[i]) < int.Parse(inputLines[i + 1]))
                 {
                     depthsInc++;
                 }
@@ -28,10 +28,10 @@ namespace AdventOfCode
         {
             int depthsInc = 0;
 
-            for (int i = 0; i < inputs.Count - 3; i++)
+            for (int i = 0; i < inputLines.Count - 3; i++)
             {
-                int a = int.Parse(inputs[i]) + int.Parse(inputs[i + 1]) + int.Parse(inputs[i + 2]);
-                int b = int.Parse(inputs[i + 1]) + int.Parse(inputs[i + 2]) + int.Parse(inputs[i + 3]);
+                int a = int.Parse(inputLines[i]) + int.Parse(inputLines[i + 1]) + int.Parse(inputLines[i + 2]);
+                int b = int.Parse(inputLines[i + 1]) + int.Parse(inputLines[i + 2]) + int.Parse(inputLines[i + 3]);
 
                 if (a < b)
                 {

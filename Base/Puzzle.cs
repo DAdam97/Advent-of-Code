@@ -1,31 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventOfCode
 {
     public abstract class Puzzle
     {
-       public List<string> inputs;
+        public List<string> inputLines;
+        public string FullInput { get; private set; }
 
         public abstract void part1();
 
         public abstract void part2();
 
-
         public Puzzle(string path)
         {
-            inputs = new List<string>();
+            inputLines = new List<string>();
+            StringBuilder stringBuilder = new StringBuilder();
 
             using (StreamReader sr = new StreamReader(path, Encoding.Default))
             {
+                string temp;
                 while (!sr.EndOfStream)
                 {
-                    inputs.Add(sr.ReadLine());
+                    temp = sr.ReadLine();
+                    inputLines.Add(temp);
+                    stringBuilder.Append(temp);
                 }
+                FullInput = stringBuilder.ToString();
             }
         }
     }

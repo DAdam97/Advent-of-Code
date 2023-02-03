@@ -17,7 +17,7 @@ namespace AdventOfCode_2022.Day2
             Round round;
             int finalScore = 0;
 
-            foreach (var line in inputs)
+            foreach (var line in inputLines)
             {
                 moves = line.Split(' ');
                 round = new Round(moves[0], moves[1]);
@@ -32,7 +32,7 @@ namespace AdventOfCode_2022.Day2
             Round round;
             int finalScore = 0;
 
-            foreach (var line in inputs)
+            foreach (var line in inputLines)
             {
                 round = new Round(line);
                 finalScore += round.CalculateScore();

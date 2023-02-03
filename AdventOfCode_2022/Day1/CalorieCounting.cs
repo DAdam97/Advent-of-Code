@@ -19,7 +19,7 @@ namespace AdventOfCode_2022.Day1
         {
             Elf elf = new Elf();
 
-            foreach (string line in inputs)
+            foreach (string line in inputLines)
             {
                 if (line == "")
                 {

@@ -89,18 +89,18 @@ namespace AdventOfCode
 
         public Day4(string input) : base(input)
         {
-            randomNums = inputs[0].Split(',');
+            randomNums = inputLines[0].Split(',');
 
-            for (int i = 2; i < inputs.Count; i++)
+            for (int i = 2; i < inputLines.Count; i++)
             {
-                string[] nums = inputs[i].Replace("  ", " ").Trim().Split(' ');
+                string[] nums = inputLines[i].Replace("  ", " ").Trim().Split(' ');
 
                 for (int j = 0; j < nums.Length && nums.Length > 1; j++)
                 {
                     tableNums.Add(int.Parse(nums[j]));
                 }
 
-                if (inputs[i] == "")
+                if (inputLines[i] == "")
                 {
                     tables.Add(new Table(tableNums));
                     tableNums.Clear();

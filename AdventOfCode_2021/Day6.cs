@@ -18,7 +18,7 @@ namespace AdventOfCode
 
             const int daysToSimulate = 80;
 
-            foreach (string fish in inputs[0].Split(','))
+            foreach (string fish in inputLines[0].Split(','))
             {
                 lanternfishes.Add(int.Parse(fish));
             }
@@ -51,7 +51,7 @@ namespace AdventOfCode
             const int lifeCycle = 9;
 
             long[] lanternfishes = new long[lifeCycle];
-            string[] initialState = inputs[0].Split(',');
+            string[] initialState = inputLines[0].Split(',');
 
             for (int i = 0; i < initialState.Length; i++)
             {

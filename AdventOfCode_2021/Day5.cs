@@ -17,9 +17,9 @@ namespace AdventOfCode
 
             int dangerousAreas = 0;
 
-            for (int i = 0; i < inputs.Count; i++)
+            for (int i = 0; i < inputLines.Count; i++)
             {
-                string scanLine = inputs[i];
+                string scanLine = inputLines[i];
                 string[] coordinatePair = scanLine.Replace(" -> ", ":").Split(':');
                 string[] startSegment = coordinatePair[0].Split(',');
                 string[] endSegment = coordinatePair[1].Split(',');
@@ -73,9 +73,9 @@ namespace AdventOfCode
 
             int dangerousAreas = 0;
 
-            for (int i = 0; i < inputs.Count; i++)
+            for (int i = 0; i < inputLines.Count; i++)
             {
-                string scanLine = inputs[i];
+                string scanLine = inputLines[i];
                 string[] coordinatePair = scanLine.Replace(" -> ", ":").Split(':');
                 string[] startSegment = coordinatePair[0].Split(',');
                 string[] endSegment = coordinatePair[1].Split(',');

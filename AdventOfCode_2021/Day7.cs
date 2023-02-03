@@ -96,7 +96,7 @@ namespace AdventOfCode
 
         public Day7(string input) : base(input)
         {
-            foreach (string position in inputs[0].Split(','))
+            foreach (string position in inputLines[0].Split(','))
             {
                 positions.Add(int.Parse(position));
             }

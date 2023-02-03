@@ -2,9 +2,8 @@
 using AdventOfCode_2022.Day2;
 using AdventOfCode_2022.Day3;
 using AdventOfCode_2022.Day4;
+using AdventOfCode_2022.Day5;
 using System;
-
-
 
 namespace AdventOfCode_2022
 {
@@ -33,10 +32,17 @@ namespace AdventOfCode_2022
 
 
 
-            CampCleanup day4 = new CampCleanup(@"inputs\04.txt");
+            //CampCleanup day4 = new CampCleanup(@"inputs\04.txt");
 
-            day4.part1();
-            day4.part2();
+            //day4.part1();
+            //day4.part2();
+            
+
+
+            SupplyStacks day5 = new SupplyStacks(@"inputs\05.txt");
+
+            day5.part1();
+            day5.part2();
 
             Console.ReadLine();
         }

@@ -13,7 +13,7 @@ namespace AdventOfCode
             int depth = 0;
             int horizontal = 0;
 
-            foreach (string instruction in inputs)
+            foreach (string instruction in inputLines)
             {
                 string[] command = instruction.Split(' ');
 
@@ -42,7 +42,7 @@ namespace AdventOfCode
             int horizontal = 0;
             int aim = 0;
 
-            foreach (string instruction in inputs)
+            foreach (string instruction in inputLines)
             {
                 string[] command = instruction.Split(' ');
 

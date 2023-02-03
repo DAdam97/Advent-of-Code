@@ -10,8 +10,8 @@ namespace AdventOfCode
     {      
         public override void part1()
         {
-            int[] gammaRate = new int[inputs[0].Length];
-            int[] epsilonRate = new int[inputs[0].Length];
+            int[] gammaRate = new int[inputLines[0].Length];
+            int[] epsilonRate = new int[inputLines[0].Length];
 
             string strGamma = "";
             string strEpsilon = "";
@@ -19,7 +19,7 @@ namespace AdventOfCode
             int gamma = 0;
             int epsilon = 0;
 
-            foreach (string binaryNum in inputs)
+            foreach (string binaryNum in inputLines)
             {
                 for (int bit = 0; bit < binaryNum.Length; bit++)
                 {
@@ -57,8 +57,8 @@ namespace AdventOfCode
 
         public override void part2()
         {
-            List<string> oxygen = new List<string>(inputs);
-            List<string> co2 = new List<string>(inputs);
+            List<string> oxygen = new List<string>(inputLines);
+            List<string> co2 = new List<string>(inputLines);
 
             int zero = 0;
             int one = 0;

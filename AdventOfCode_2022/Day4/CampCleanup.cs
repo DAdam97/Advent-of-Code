@@ -16,7 +16,7 @@ namespace AdventOfCode_2022.Day4
         {
             int ContainsCount = 0;
 
-            foreach (var line in inputs)
+            foreach (var line in inputLines)
             {
                 IDRangePair pair = new IDRangePair(line, ',');
 
@@ -33,7 +33,7 @@ namespace AdventOfCode_2022.Day4
         {
             int OverlapCount = 0;
 
-            foreach (var line in inputs)
+            foreach (var line in inputLines)
             {
                 IDRangePair pair = new IDRangePair(line, ',');
 

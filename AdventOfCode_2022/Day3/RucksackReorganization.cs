@@ -16,7 +16,7 @@ namespace AdventOfCode_2022.Day3
             Rucksack rucksack;
             int sumOfPriorities = 0;
 
-            foreach (var items in inputs)
+            foreach (var items in inputLines)
             {
                 rucksack = new Rucksack(items);
                 char common = rucksack.GetCommonItemInside();
@@ -35,11 +35,11 @@ namespace AdventOfCode_2022.Day3
             int sumOfPriorities = 0;
             int i;
 
-            for (i = 0; i < inputs.Count; i += 3)
+            for (i = 0; i < inputLines.Count; i += 3)
             {
-                rucksack1 = new Rucksack(inputs[i]);
-                rucksack2 = new Rucksack(inputs[i + 1]);
-                rucksack3 = new Rucksack(inputs[i + 2]);
+                rucksack1 = new Rucksack(inputLines[i]);
+                rucksack2 = new Rucksack(inputLines[i + 1]);
+                rucksack3 = new Rucksack(inputLines[i + 2]);
 
                 char common = rucksack1.GetCommonItemOf3Rucksacks(rucksack2, rucksack3);
                 sumOfPriorities += rucksack1.GetItemPriority(common);
