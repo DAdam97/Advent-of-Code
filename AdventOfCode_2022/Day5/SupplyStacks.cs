@@ -27,7 +27,7 @@ namespace AdventOfCode_2022.Day5
                 cargoCrane.Move(inputLines[i]);
             }
 
-            Console.WriteLine(cargoCrane.TopCrates());
+            Console.WriteLine($"{cargoCrane.TopCrates()} crates ends up on the tops of the sracks");
         }
 
         public override void part2()
@@ -46,7 +46,7 @@ namespace AdventOfCode_2022.Day5
                 cargoCrane.Move(inputLines[i], true);
             }
 
-            Console.WriteLine(cargoCrane.TopCrates());
+            Console.WriteLine($"{cargoCrane.TopCrates()} crates ends up on the tops of the sracks");
         }
 
         private (CargoCrane, int) initCargoCrane()
